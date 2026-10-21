@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exhausted, still awake at 1am</title><meta name="robots" content="noindex, nofollow">
+<meta name="description" content="The sun is still up, and scouts keep running in with news.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>:root{--oxblood:#3a1218;--parchment:#ece0c4;--teal:#2d6b6b;--gold:#c4962c;--serif:"Spectral",Georgia,serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+html,body{margin:0;background:var(--parchment)}
+body{overflow-x:hidden}
+.fit{width:1080px;height:1920px;transform-origin:0 0}
+.card{position:absolute;left:16px;top:16px;width:1034px;height:1862px;box-sizing:border-box;background:var(--parchment);border:1px solid var(--oxblood);
+  box-shadow:6px 6px 0 var(--teal),12px 12px 0 var(--gold);padding:72px 16px 0;display:flex;flex-direction:column;color:var(--oxblood)}
+h1{font:italic 500 80px/1.06 var(--serif);margin:0 14px;letter-spacing:-0.01em;min-height:170px;display:flex;align-items:flex-end;text-wrap:balance}
+.panels{margin-top:52px}
+.panel{display:block;width:1000px;height:590px;border:1px solid var(--oxblood)}
+.label{font:500 42px/1 var(--mono);color:var(--teal);text-transform:lowercase;margin:0;padding:20px 14px 19px;letter-spacing:0}
+.verdict{font:400 48px/1.24 var(--serif);margin:50px 14px 0;text-wrap:balance}
+footer{margin-top:auto;border-top:1px solid var(--oxblood);display:flex;justify-content:space-between;align-items:center;padding:0 14px;height:84px;font:400 23px/1 var(--mono)}
+footer .w{font:500 24px/1 var(--mono);letter-spacing:0.02em}
+</style></head><body>
+<div class="fit" id="fit"><article class="card">
+<h1>Exhausted, still awake at 1am</h1>
+<div class="panels"><img class="panel" src="top.png" width="1000" height="590" alt="phone held above the face">
+<p class="label">what your brain sees</p>
+<img class="panel" src="bottom.png" width="1000" height="590" alt="the sun"></div>
+<p class="verdict">The sun is still up, and scouts keep running in with news.</p>
+<footer><span>evidence: established · this read: interpretive</span><span class="w">demismatch</span></footer>
+</article></div>
+<script>
+// at its native size for the capture; scaled to the screen's width otherwise
+(function(){var f=document.getElementById('fit');function fit(){var k=/capture=1/.test(location.search)?1:Math.min(1,document.documentElement.clientWidth/1080);f.style.transform='scale('+k+')';document.body.style.height=(1920*k)+'px';}fit();addEventListener('resize',fit);})();
+</script></body></html>
